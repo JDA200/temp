@@ -19,8 +19,6 @@ class Hero:
         print(f"{HERO_COLOR + self.name + RESET_COLOR}\nHP - {HP_COLOR + str(self.health) + RESET_COLOR}\nItem - {ITEM_COLOR + self.item['name'] + RESET_COLOR}")
         ms.pause()
 
-
-
     def attack(self):
         item = self.item
         potential_dmg = random.randint(-5, 5) + item["damage"]
