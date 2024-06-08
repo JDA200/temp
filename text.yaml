@@ -1,0 +1,6 @@
+intro: "Welcome to the Adventure Game!"
+commands:
+  unknown: "I don't understand that command."
+  quit: "Thanks for playing!"
+  inventory_empty: "Inventory: empty"
+  inventory: "Inventory:"
